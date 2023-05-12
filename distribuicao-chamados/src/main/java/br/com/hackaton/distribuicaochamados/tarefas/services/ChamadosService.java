@@ -12,6 +12,6 @@ public interface ChamadosService {
 	ChamadoDTO buscarTicketPorId (long ID);
 	ChamadoDTO distribuirTicket (NovoChamadoDTO novoChamadoDTO);
 	ChamadoDTO atualizarDistribuicao (long ID, NovoChamadoDTO novoChamadoDTO);
-	void removerTicket (long ID);
+	void removerTicket (Integer ID);
 	
 }

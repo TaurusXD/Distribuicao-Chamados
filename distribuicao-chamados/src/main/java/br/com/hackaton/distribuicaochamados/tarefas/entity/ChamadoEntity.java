@@ -15,6 +15,10 @@ public class ChamadoEntity {
 	private String assunto;
 	@Column
 	private int prioridade;
+	
+	public ChamadoEntity() {
+		
+	}
 	/**
 	 * @return the iD
 	 */
